@@ -1,0 +1,153 @@
+body {
+  background-image: url('images\circuitboard.jpg');
+  padding: 5px;
+}
+
+h1 {
+  font-size: 32px;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+h3 {
+  font-size: 45px;
+  color: rgb(128, 126, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+p1{
+	color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+
+
+
+p2{
+	color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+p3{
+	color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+
+
+a{
+  color: red;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+ul{
+	color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.TopLogo{
+	position: static;
+  float: left;
+  height: 180px;
+  width: auto;
+}
+
+.TopContact{
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  height: 180px;
+  width: auto;
+}
+
+
+.menuImages{
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 50%;
+}
+
+.MainScreenText{
+  border-style: solid;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #D3D3D3;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 2px;
+  max-height: 400px;
+  max-width: auto;
+  
+}
+
+.certLinks{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600px;
+  font-size: 18px;
+}
+
+.links{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.mainLogos{
+  display: flex;
+  justify-content: center;
+}
+
+
+.productTable{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: left;
+  border-style: solid;
+  border-radius: 15px;
+  background-color: #D3D3D3;
+  border-spacing: 10px;
+  border-collapse: separate;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 2px;
+  max-height: 400px;
+  max-width: auto;
+}
+
+.contactUsTable{
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContactHeading{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.directionsTable{
+  margin-left: auto;
+  margin-right: auto;
+  font-family:Arial, Helvetica, sans-serif
+}
+

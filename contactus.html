@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="mystyle.css">
+<script type="text/javascript" src="logic.js">  </script> 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<body>
+  <div class = "topBar">
+
+    <a href="index.html">
+      <img src="images\toplogo.jpg" alt="Main Menu"  class="TopLogo">
+      </a>
+    <a href="contactus.html">
+        <img src="images\contactus.jpg" alt="Cabling Menu"  class="TopContact">
+        </a>
+    </div>
+  <a href="index.html">Back to the Main Menu</a>
+
+  <h1>Contact Us</h1>
+  <table class="contactUsTable">
+    <tr>
+      <th><img src="images\contactusmain.jpg" alt="contactusmain"></th>
+      <th>
+        <div class="mainTable">
+
+          <table>
+            <tr>
+<p class = "ContactHeading">Remember, you can talk to one of our talented staff members at an time on 01-467423</p>
+            </tr>
+
+            <td>Nearest Shop: </td>
+            <td>
+              <select>
+                <option>--Select Item--</option>
+                <option>Dublin - Ballymun</option>
+                <option>Dublin - Ballymount</option>
+                <option>Dublin - Sandyford</option>
+                <option>Mullingar</option>
+                <option>Galway</option>
+                <option>Carrick-on-Shannon</option>
+                <option>Clonmel</option>
+                <option>Thurlas</option>
+                <option>Ennis</option>
+                <option>Neenagh</option>
+                <option>Limerick</option>
+                <option>Newry</option>
+              </select>
+            </td>
+    </tr>
+    <tr>
+      <td>Full name:</td>
+      <td>
+        <input type="text" id="fullname" minlength="9" placeholder="Full name" onChange="checkUsername()">
+      </td>
+    </tr>
+    </td>
+    <tr>
+      <td>Password:</td>
+      <td>
+        <input type="password" id="password" name="password" placeholder="Password"minlength="8" onChange="passwordPopup()">
+      </td>
+    </tr>
+    </td>
+    </tr>
+    <tr>
+      <td>Email: </td>
+      <td><input type="text" id="emailAddress" placeholder="XXXXXX@XXX.XX"onChange="checkemail(emailAddress)">
+      </td>
+    <tr>
+      <td>Comment Box: </td>
+      <td>
+      <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="At Electric Lettuce we have thousands of staff on hand to answer any questions you have. Please insert them below and we'll get back you in 24 hours"></textarea>
+      </td>
+      <br>
+      <tr>
+        <td>
+        </td>
+        <td>
+        <input type="submit" id="tableSubmit" value="Submit" onclick="submitData()">
+        </td>
+      </tr>
+      </form>
+      </td>
+    </tr>
+  </table>
+  <br>
+  </th>
+  </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <table class = "directionsTable">
+    <tr>
+      <th>Our Irish Headquarters</th>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9528.473244312381!2d-6.1951386381649!3d53.34113830337473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670f17e3aa2bb5%3A0x3e2420b4e036edcc!2sShellybanks%20Beach!5e0!3m2!1sen!2sie!4v1651173051352!5m2!1sen!2sie" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+    </tr>
+
+  </table>
+
+
+</body>
+
+</html>
+
